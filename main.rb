@@ -19,7 +19,7 @@ co = Checkout.new([rule_1, rule_2])
 co.scan(item_001)
 co.scan(item_002)
 co.scan(item_003)
-co.scan(item_001)
+# co.scan(item_001)
 
 # Print Bill
 co.printBill()

@@ -7,7 +7,8 @@ class Item
     end
  
     # accessor methods
-    #get product code
+
+    # get product code
     def getCode
        @code
     end
@@ -23,7 +24,8 @@ class Item
     end
  
     # setter methods
-    #set price of item if discount
+
+    # set price of item if discount
     def setPrice(p)
        @price = p
     end
@@ -31,10 +33,5 @@ class Item
     # reset price of item
     def refreshPrice
        @price = @originalPrice
-    end
- 
-    # print object values to string 
-    def to_s
-       "(code:#@code,name:#@name,price:#@price,originalPrice:#@originalPrice)"  # string formatting of the object.
     end
 end

@@ -6,23 +6,24 @@ class Rule
   end
 
   # accessor methods
-  #get rules code
+
+  # get rules code
   def getCode
     @code
   end
 
-  #get rules percent
+  # get rules percent
   def getPercent
     @percent
   end
 
-  #get rules threshold
-  def getThres
+  # get rules threshold
+  def getThreshold
     @threshold
   end
 
-  #get rules value
-  def getVal
+  # get rules value
+  def getValue
     @value
   end
 end
